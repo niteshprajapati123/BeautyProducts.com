@@ -1,0 +1,477 @@
+body{
+    background-image: url(Images/Beauty\ girl.webp);
+    background-size: 100% 800px;
+    padding: 0;
+    margin: 0;
+    background-attachment: fixed;
+}
+
+/*start nav coding*/
+
+nav{
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    box-sizing: border-box;  
+}
+
+#Welcome{
+    padding-left: 10%;
+    color: white;
+    font-size: 70px;
+    text-align: left;  
+    margin: 10px;
+}
+
+#menu{
+    width: 600px;
+    height: 70px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#nav_item{
+    width: 20%;
+    height: 70px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    box-sizing: border-box;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+/*end nav coding*/
+
+
+
+/*Start home page Section Coding*/
+
+#home_section{
+    width: 1530px;
+    height: 720px;
+    border-style: solid;
+    border-color: white;
+    padding: 0%;
+    margin: 0%;
+
+}
+#border_box{
+    width: 200px;
+    height: 200px;
+    border-width: 5px;
+    float: left;
+    border-style: solid;    
+    box-sizing: border-box;
+    margin-left: 3%;
+    margin-top: 5%;
+    border-radius: 30%;
+    border-color: white;
+    background-color: rgba(0, 0, 0, 0.9);
+
+}
+
+img{
+    width: 180px;
+    height: 180px;
+    
+    
+}
+
+
+#Pro_name{
+    color: lightcyan;
+    font-family: century;
+    margin-top: 19%; 
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 2%;
+    margin-bottom: 6.7%;
+}
+/*end home page Section Coding*/
+
+
+
+/*Start login page nav coding*/
+#domain_name{
+    font-family: sans-serif;
+    padding-left: 2%;
+    color: white;
+    font-size: 50px;
+    text-align: left;
+    float: left; 
+}
+/*Start login page nav coding*/
+
+
+
+/*Start login page section coding*/
+
+#login_section{
+    width: 1530px;
+    height: 720px;
+    border-style: solid;
+    border-color: white;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+fieldset{
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+    width: 390px;
+    height: 300px;
+    margin: 5%;
+    margin-top: 3%;
+    margin-bottom: 9.5%;
+}
+
+
+legend{
+    font-family: century;
+    font-size: 25px;
+    color: white;
+}
+
+
+#login-form{
+    color: white;
+    font-size: 25px;
+    font-family: century;
+    margin-left: 10px;
+    color: lightblue;
+}
+
+#Username{
+    width: 80%;
+    height: 20px;
+    background-color: inherit;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    color: white;
+    font-size: 17px;
+   margin: 15px;
+   margin-left: 20px;
+   margin-bottom: 25px;
+}
+
+#password{
+    width: 80%;
+    height: 20px;
+    background-color: inherit;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    color: white;
+    font-size: 17px;
+   margin: 15px;
+   margin-left: 20px;
+   margin-bottom: 20px;
+}
+
+
+#login-btn{
+    width: 100px;
+    height: 35px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 40px;
+    background-color: inherit;
+    color: lightgreen;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    font-family: century;
+    font-size: 15px;
+}
+
+#nav_2{
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-sizing: border-box;     
+}
+
+
+#menu{
+    width: 700px;
+    height: 70px;
+    box-sizing: border-box;
+    float: right;
+    padding-right: 50px;
+    margin-top: 1%;
+}
+
+/*end login page section coding*/
+
+
+/*Start Contect Page Section coding*/
+#Contect{
+    font-size: 20px;
+    font-family: century;
+    font-style: normal;
+    padding: 10px;
+    margin: 5px;
+    line-height: 40px;
+    font-size: 20px;
+    margin-top: 8px;
+    padding: 10px;
+    color: lightgoldenrodyellow ;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#cotect_us{
+    color: lightgreen;
+    font-family: Verdana;
+}
+/*Start Contect Page Section coding*/
+
+/*Start Product Page Section coding*/
+#Products_section{
+        width: 1513px;
+        height: 3000px;
+        border-style: solid;
+        border-color: white;
+}
+
+#brand{
+    width: 100%;
+    height: 300px;
+    background-color: rgba(255, 255,255, 0.6);
+    
+}
+/*End Contect Page Section coding*/
+
+/*Start Product Page Section coding*/
+#Brand_heading{
+    text-align: center;
+    font-size: 40px;
+    font-family: century;
+    margin-top: 0%;
+
+}
+
+
+
+#Brand_pic{
+    width: 200px;
+    height: 100px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    float: left;
+    margin: 50px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+#img_pic{
+    background-size: 100%;
+    width: 196px;
+    height: 96px;
+    background-color: white;
+}
+
+
+#search{
+    width: 60%;
+    height: 50px;
+    float: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 4px;
+    border: none;
+    border-radius: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: silver;
+    font-size: 18px;
+    padding: 10px;
+}
+
+
+#Zest_products{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.7);
+    float: left;
+    box-sizing: border-box;
+}
+
+#Zest{
+    color: white;
+    text-align: center;
+    font-family: century;
+    font-size: 35px;
+}
+
+
+#Zest_product_pic{
+    width: 250px;
+    height: 300px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    float: left;
+    box-sizing: border-box;
+    margin: 43px;
+    margin-left: 5%;
+}
+
+
+#Dove_products{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.7);
+    float: left;
+    box-sizing: border-box;
+}
+
+#Dove{
+    color: white;
+    text-align: center;
+    font-family: century;
+    font-size: 35px;
+}
+
+
+#Dove_product_pic{
+    width: 250px;
+    height: 300px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    float: left;
+    box-sizing: border-box;
+    margin: 43px;
+    margin-left: 5%;
+}
+
+
+
+#beauty_products{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.7);
+    float: left;
+    box-sizing: border-box;
+}
+
+#beauty{
+    color: white;
+    text-align: center;
+    font-family: century;
+    font-size: 35px;
+}
+
+
+#beauty_product_pic{
+    width: 250px;
+    height: 300px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    float: left;
+    box-sizing: border-box;
+    margin: 43px;
+    margin-left: 5%;
+}
+
+
+
+#Pantene_products{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.7);
+    float: left;
+    box-sizing: border-box;
+}
+
+#Pantene{
+    color: white;
+    text-align: center;
+    font-family: century;
+    font-size: 35px;
+}
+
+
+#Pantene_product_pic{
+    width: 250px;
+    height: 300px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    float: left;
+    box-sizing: border-box;
+    margin: 43px;
+    margin-left: 5%;
+}
+
+
+
+#Actium_products{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.7);
+    float: left;
+    box-sizing: border-box;
+}
+
+#Actium{
+    color: white;
+    text-align: center;
+    font-family: century;
+    font-size: 35px;
+}
+
+
+#Actium_product_pic{
+    width: 250px;
+    height: 300px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    float: left;
+    box-sizing: border-box;
+    margin: 43px;
+    margin-left: 5%;
+}
+
+#imag_pro{
+    width: 247px;
+    height: 297px;
+}
+
+/*Start Product Page Section coding*/
+
+footer{
+    width: 100%;
+    height: 70px;
+    color: white;
+    font-family: century;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-color: red;
+    border-width: 2px;
+    border-radius: 5px;
+    border-style: dotted;
+    box-sizing: border-box;
+
+}
+
+
+
+
+
